@@ -1,0 +1,30 @@
+nav{
+    height: 50px;
+}
+.d-flex{
+    margin-top: 2px;
+}
+body{
+    background: url("https://tercetocomunicacion.es/wp-content/uploads/2019/05/giphy-1.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer{
+   margin-top: 11%;
+    
+    background: #444;
+    
+}
+img{
+    padding: 20px 0 1px 0;
+    width: 100px;
+}
+form{
+    background: #555;
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 30%;
+}
+header{
+    height: 430px;
+}
