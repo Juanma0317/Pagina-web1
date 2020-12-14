@@ -1,30 +1,146 @@
+*{
+    color: white;
+}
+
 nav{
-    height: 50px;
+    height: 60px;
 }
 .d-flex{
     margin-top: 2px;
 }
-body{
-    background: url("https://tercetocomunicacion.es/wp-content/uploads/2019/05/giphy-1.gif");
+.body{
+    background: url("https://cdn.pixabay.com/photo/2016/08/12/00/51/doors-1587329_960_720.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+
+}
+body{
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23f72201' fill-opacity='0.3'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.nav-link:focus{
+    text-decoration: underline #fff;
+   
+}
+.nav-link{
+    margin: 30px;
 }
 footer{
-   margin-top: 11%;
+   margin-top: 7%;
     
     background: #444;
     
 }
-img{
-    padding: 20px 0 1px 0;
-    width: 100px;
-}
+
 form{
-    background: #555;
+    background: #222;
     margin-top: 50px;
     margin-left: 35%;
     width: 30%;
 }
 header{
     height: 430px;
+}
+.items-inicio{
+    margin-top: 20px;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 80px;
+  color: #fa1;
+  text-shadow: 2px 2px 2px #11f;
+  text-decoration: underline #afa;  
+}
+
+.areas-inicio{
+    background: #222;
+    width: 30%;
+    margin: auto;
+    margin-top: 55px;
+    border: 2px solid #11f;
+    box-shadow: 1px 10px 10px 10px #000;
+}
+.areas-inicio:hover{
+      /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+           transform : scale(1.2);
+}
+
+.items-inicio-areas{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+.items-inicio-areas:hover{
+    transform : scale(1.3);
+}
+.nosotros{
+    width: 40%;
+    height: 520px;
+    margin: auto;
+    margin-top: 45px;
+    background: #fff;
+    border: 3px solid #11f;
+    box-shadow: 20px 10px 45px 20px #000;
+}
+.texto-nosotros{
+    color: #000;
+    padding: 30px 10px 10px 30px;
+    
+}
+.collapse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+
+}
+nav{
+    box-shadow: 4px 1px 4px 1px #fff;
+}
+.todo-correcto{
+    height: 300px;
+    width: 100%;
+    background: #1c3;
+    margin: auto;
+    margin-top: 100px;
+}
+.verificacion-correcta{
+    text-align: center;
+    color: #000;
+    padding-top: 80px;
+    font-size: 60px;
+}
+i{
+    color: #000;
+}
+.link-inicio{
+    text-align: center;
+    padding-top: 35px;
+   
+}
+.a-inicio{
+    text-decoration: none;
+}
+.link-inicio:hover{
+    transform: scale(1.3);
+}
+.pagina-programacion{
+    background: #fff;
+    height: 1000px;
+    width: 80%;
+    margin: auto;
+    border: 4px solid #11f;
+    box-shadow: 3px 5px 15px 20px #000;
+}
+.programacion-p{
+    padding: 36px;
+    color: #000
+}
+.programacion-title{
+    text-align: center;
+    padding-top: 50px;
+    color: #000;
+}
+h5{
+    font-family: 'Play', sans-serif;
 }

@@ -6,45 +6,31 @@
     <title>Contacto</title>
     <%- include("partials/header.html") %>
 </head>
-<body>
+<body class="body">
     <%- include("partials/nav.html") %>
-    <!-- Default form contact -->
-<form class="text-center border border-light p-5 animate__animated animate__bounceInDown" action="#!">
+<!-- Default form subscription -->
+<form class="text-center border border-light p-5  animate__animated animate__backInDown" action="/correcto">
 
-    <p class="h4 mb-4">Contact us</p>
+    <p class="h4 mb-4">Unirse</p>
 
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+    <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Nombre" required>
 
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+    <p>Unete a nuestra nula comunidad ya que no hay nadie y ayudanos a crecer y propagar vias al conocimiento para todo el mundo que <b>"nunca te falten oportunidades"</b></p>
+    <p>
+        <a href="" target="_blank">Terminos y condiciones</a>
+    </p>
 
-    <!-- Subject -->
-    <label>Subject</label>
-    <select class="browser-default custom-select mb-4">
-        <option value="" disabled>Choose option</option>
-        <option value="1" selected>Feedback</option>
-        <option value="2">Report a bug</option>
-        <option value="3">Feature request</option>
-        <option value="4">Feature request</option>
-    </select>
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block" type="submit">Registrarse</button>
 
-    <!-- Message -->
-    <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
-    </div>
-
-    <!-- Copy -->
-    <div class="custom-control custom-checkbox mb-4">
-        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-    </div>
-
-    <!-- Send button -->
-    <button class="btn btn-info btn-block" type="submit">Send</button>
 
 </form>
-<!-- Default form contact -->
+<!-- Default form subscription -->
+</form>
+<!-- Material form subscription -->
  <%- include("partials/footer.html") %> 
 </body>
 

@@ -17,6 +17,16 @@ res.render(`index.html`,{titulo: `Inicio`});
 app.get(`/contactos`,(req,res)=>{
     res.render(`contactos.html`,{titulo: `Pagina de contactos`});
 });
+app.get(`/nosotros`,(req,res)=>{
+    res.render(`nosotros.html`,{titulo: `Acerca de nosotros`});
+});
+app.get(`/correcto`,(req,res)=>{
+    res.render(`correcto.html`,{titulo: `correcto el formulario`});
+});
+
+app.get(`/programacion`,(req,res)=>{
+    res.render(`programacion.html`,{titulo: `programacion`});
+});
 
 /* Archivos estaticos
  */
