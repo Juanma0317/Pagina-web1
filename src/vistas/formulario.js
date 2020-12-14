@@ -1,1 +1,0 @@
-prompt("como estas");
