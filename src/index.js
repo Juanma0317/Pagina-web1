@@ -27,6 +27,21 @@ app.get(`/correcto`,(req,res)=>{
 app.get(`/programacion`,(req,res)=>{
     res.render(`programacion.html`,{titulo: `programacion`});
 });
+app.get(`/marketing`,(req,res)=>{
+    res.render(`marketing.html`,{titulo: `marketing`});
+});
+app.get(`/deporte`,(req,res)=>{
+    res.render(`deporte.html`,{titulo: `deporte`});
+});
+app.get(`/anime`,(req,res)=>{
+    res.render(`anime.html`,{titulo: `anime`});
+});
+app.get(`/conocimientos`,(req,res)=>{
+    res.render(`conocimiento.html`,{titulo: `conocimiento`});
+});
+
+
+
 
 /* Archivos estaticos
  */
