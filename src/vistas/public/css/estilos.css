@@ -193,11 +193,8 @@ b{
    z-index: 2;
     
 }
-.navbar-collapse{
-    background: transparent;
-}
 .container-fluid{
-    height: 0;
+    height: 0%;
     margin-bottom: 12px;
     
 }
