@@ -188,18 +188,27 @@ b{
 .navbar-nav{
     background: #444;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 0%;
    margin-left: 0;
    z-index: 2;
     
 }
+.navbar-collapse{
+    background: transparent;
+}
+.container-fluid{
+    height: 0;
+    margin-bottom: 12px;
+    
+}
+
 .nav-item{
   text-align: center;
   border-bottom: 2px solid #fff;
   font-size: 18px;
 }
 .nav-link{
-    margin: 10px;
+    margin: 16px;
 }
 .container-fluid{
     padding-left: 0%;
